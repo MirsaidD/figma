@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Noto Serif", serif;
 }
 /* Container */
 .container {
@@ -67,6 +68,10 @@ body {
   background-image: url(./img/intro/hero-banner\2svg);
   background-size: cover;
   background-repeat: no-repeat;
+
+  position: relative;
+  top: 0;
+  left: 0;
 }
 .intro-title {
   width: 700px;
@@ -76,10 +81,11 @@ body {
 /* Button 
 ========================= */
 .btn {
-  padding: 18px 36px;
+  color: white;
   background-color: #ff715b;
   border-radius: none;
   border: none;
+  padding: 18px 36px;
 
   font-weight: 500;
   font-size: 18px;
