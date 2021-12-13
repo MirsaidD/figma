@@ -11,52 +11,54 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap"
       rel="stylesheet"
     />
   </head>
-
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <div class="header__inner">
+        <div class="row">
           <div class="header__logo">
             <img src="./img/Logo/logo.png" alt="" />
           </div>
-
-          <nav class="nav">
-            <a class="nav__link" href="#">distination</a>
-            <a class="nav__link" href="#">offer</a>
-            <a class="nav__link" href="#">tour</a>
-            <a class="nav__link" href="#">blog</a>
+          <nav class="header__nav">
+            <ul>
+              <li><a class="nav_link" href="#">Destination</a></li>
+              <li><a class="nav_link" href="#"> Offer </a></li>
+              <li><a class="nav_link" href="#"> Tour </a></li>
+              <li><a class="nav_link" href="#"> Blog</a></li>
+            </ul>
           </nav>
 
-          <div class="nav__user">
-            <img src="./img/Logo/user.png" alt="" />
-            <img src="./img/Logo/line shape.png" alt="" />
-            <img src="./img/Logo/serch.png" alt="" />
+          <div class="header__login">
+            <img class="user" src="./img/Logo/user.png" alt="" />
+            <a class="nav_link" href="#">My account</a>
+            <img class="search" src="./img/Logo/serch.png" alt="" />
           </div>
         </div>
       </div>
     </header>
 
-    <main>
-      <section class="home">
+    <div>
+      <div class="home">
         <div class="container">
-          <div class="home__inner">
-            <h1 class="home__text">
-              It’s Time To <br />
-              Explore The World
-            </h1>
+          <div class="home__content">
+            <h1 class="home__heading">It’s Time To Explore The World</h1>
           </div>
           <div class="home__btn">
-            <a href="#" class="btn">Plan Your Trip</a>
+            <a class="btn" href="#">Plan Your Trip</a>
           </div>
-          <div class="bg__img">
-            <img src="./img/intro/hero-banner 2.jpg" alt="" />
+          <div class="bg-img">
+            <img
+              height="100%"
+              width="100%"
+              src="./img/intro/hero-banner 2.jpg"
+              alt=""
+            />
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </div>
   </body>
 </html>
