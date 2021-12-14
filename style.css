@@ -63,11 +63,8 @@ body {
 .intro {
   display: flex;
   flex-direction: column;
-  height: 1600px;
+  min-height: 1000px;
   padding-top: 100px;
-  background-image: url(./img/intro/hero-banner\2svg);
-  background-size: cover;
-  background-repeat: no-repeat;
 
   position: relative;
   top: 0;
@@ -77,6 +74,20 @@ body {
   width: 700px;
   font-size: 84px;
   color: #2c2c2c;
+}
+.bg-img {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.home-bg-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 /* Button 
 ========================= */
@@ -90,4 +101,9 @@ body {
   font-weight: 500;
   font-size: 18px;
   font-style: normal;
+}
+/* Col-3 */
+.container-col {
+  width: 80%;
+  margin: 0 auto;
 }
