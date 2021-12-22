@@ -7,6 +7,10 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+.container-little {
+  width: 0%;
+  margin: 0 auto;
+}
 
 /* Header
 ==================== */
@@ -91,7 +95,10 @@ body {
   height: 100%;
 }
 .img-card{
-  
+
+}
+.under-subtitle{
+  display: flex;
 }
 /* Button 
 ========================= */
