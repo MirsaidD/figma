@@ -4,6 +4,11 @@ body {
 * {
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
 /* Container */
 .container {
   max-width: 1680px;
@@ -132,6 +137,15 @@ body {
   text-align: center;
 }
 
+.btn-center {
+  height: 64px;
+  width: 240px;
+
+  justify-content: center;
+  margin-left: 550px;
+  margin-bottom: 200px;
+}
+
 /* Features
 =========================== */
 .features {
@@ -178,7 +192,7 @@ body {
   letter-spacing: 0em;
   text-align: center;
 }
-/* Destinations
+/* Top destinations
 ============================= */
 .top-destinations {
   font-size: 18px;
@@ -209,6 +223,8 @@ body {
 .col-6 {
   flex: 0 0 50%;
 }
+/* Team
+======================== */
 .team {
   margin-bottom: 100px;
 }
@@ -222,7 +238,8 @@ body {
 .work {
   height: 729px;
 }
-
+/* Other
+========================= */
 .other-img {
   margin-right: 101px;
   width: 570px;
@@ -264,6 +281,8 @@ body {
   border-bottom: none;
   margin-bottom: 180px;
 }
+/* Destinations
+================================ */
 .destinations-title {
   font-family: "Noto Serif", serif;
   font-size: 48px;
@@ -281,15 +300,7 @@ body {
   margin-top: 175px;
 }
 .bottom-img:first-child {
-  padding-right: px;
-}
-.btn-center {
-  height: 64px;
-  width: 240px;
-
-  justify-content: center;
-  margin-left: 550px;
-  margin-bottom: 200px;
+  padding-right: 0px;
 }
 /* Footer
 ======================== */
