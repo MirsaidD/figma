@@ -1,5 +1,7 @@
 body {
   margin: 0;
+
+  font-family: "Noto Serif", serif;
 }
 * {
   box-sizing: border-box;
@@ -93,7 +95,6 @@ a {
 .intro-title {
   padding-right: 200px;
   width: 80%;
-  font-family: "Noto Serif", serif;
   font-size: 84px;
   font-weight: 700;
 }
@@ -116,7 +117,6 @@ a {
   width: 200px;
   height: 60px;
 
-  font-family: "Noto Serif", serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -130,7 +130,6 @@ a {
   border-radius: none;
   border: none;
 
-  font-family: "Noto Serif", serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -171,8 +170,7 @@ a {
 .features-title {
   color: #2c2c2c;
   margin-bottom: 20px;
-
-  font-family: "Noto Serif", serif;
+  
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -198,7 +196,6 @@ a {
   font-size: 18px;
 }
 .top-destinations-title {
-  font-family: "Noto Serif", serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 800;
@@ -250,7 +247,7 @@ a {
 }
 .other-title {
   width: 80%;
-  font-family: "Noto Serif", serif;
+ 
   font-size: 48px;
   font-style: normal;
   font-weight: 800;
@@ -259,7 +256,6 @@ a {
   background-color: #ff715b;
 }
 .other-suptitle {
-  font-family: "Noto Serif", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -284,7 +280,6 @@ a {
 /* Destinations
 ================================ */
 .destinations-title {
-  font-family: "Noto Serif", serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 800;
